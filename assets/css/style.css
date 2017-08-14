@@ -237,3 +237,157 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Beginning of new code added for media screen sizing */
+@media screen and (max-width: 980px) {
+  #logo {
+    margin-left: 100px;
+
+  }
+  
+  .main-container {
+    width: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    float: left;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
+
+  .auth-image {
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+
+  .main-section {
+    max-width: 60%;
+    width: auto;
+    margin-right: 10px;
+    float: left;
+
+  }
+
+  .sidebar {
+    max-width: 45%;
+    width: auto;
+    margin-left: 10px;
+    float: right;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+    width: 100%;
+  }
+
+
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding-left: 10px;
+  }
+
+  nav {
+    padding-right: 20px;
+  }
+
+  .sidebar {
+    max-width: 98%;
+    width: 100%;
+    float: left;
+    margin: 0 0 40px;
+  }
+
+  .main-section {
+    max-width: 98%;
+    width: 100%;
+    margin: 0 0 40px;
+    float: left;
+
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+    max-width: 640px;
+    padding-left: 0px;
+  }
+
+
+  #main-container {
+    width: 95%;
+    padding-top: 0px;
+  }
+
+  #masthead {
+    position: static;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  #logo {
+    max-width: 640px;
+    width: 100%;
+    margin: 0px;
+
+  }
+
+  nav {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    padding-top: 5px;
+    margin: 0px;
+  }
+
+  nav a {
+    width: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .auth-image {
+    width: 100%;
+    float: left;
+  }
+
+ /*  #main-container {
+   max-width: 600px;
+   width: auto;
+   padding-top: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+   float: left; */
+  
+  } 
+
+  .work {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .sidebar {
+    width: 98%;
+    max-width: 630px;
+    margin-left: 0px;
+    float: left;
+    
+  }
+
+}
+
